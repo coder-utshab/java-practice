@@ -10,7 +10,7 @@ public class peoples {
           System.out.println(peopleInRoom);
 
 
-          peopleInRoom--;
+          peopleInRoom--;     //3-1  =2
           System.err.println(peopleInRoom);
     }
 }
