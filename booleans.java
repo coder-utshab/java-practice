@@ -27,16 +27,34 @@
 
 
 
+// public class booleans {
+//   public static void main(String[] args) {
+//     int myAge = 25;
+//     int votingAge = 18;
+
+//     if (myAge >= votingAge) {
+//         System.out.println("Oldenough to vote");
+//     }
+//     else{
+//         System.out.println("Not old enogh to vote");
+//     }
+// ;  }
+// }
+
+
+
+
+
+
+
 public class booleans {
   public static void main(String[] args) {
-    int myAge = 25;
-    int votingAge = 18;
+    boolean isLightOn = false;
 
-    if (myAge >= votingAge) {
-        System.out.println("Oldenough to vote");
+    if (isLightOn) {
+      System.out.println("The light is on.");  // This will not be printed
     }
-    else{
-        System.out.println("Not old enogh to vote");
-    }
-;  }
+    
+    System.out.println("This line always runs.");
+  }
 }
