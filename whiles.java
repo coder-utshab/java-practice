@@ -28,13 +28,43 @@
 
 
 
+// public class whiles{
+//     public static void main(String[] args){
+//         int i = 6;
+
+//         while (i <= 12){
+//             System.out.println("Utshab");
+//             i++;
+//         }
+//     }
+// }
+
+
+
+
+
+// public class whiles{
+//     public static void main(String[] args){
+//        int countdown = 4;
+
+//        while(countdown > 0){
+//         System.out.println(countdown);
+//         countdown--;
+//        }
+//        System.out.println("Utshab kumar ghosh");
+//     }
+// }
+
+
+
+
 public class whiles{
     public static void main(String[] args){
-        int i = 6;
+       int i = 10;
 
-        while (i <= 12){
-            System.out.println("Utshab");
-            i++;
-        }
+       while (i > 5) {
+        System.out.println("Utshab kumar ghosh");
+        i--;
+       }
     }
 }
