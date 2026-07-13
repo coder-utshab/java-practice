@@ -13,14 +13,28 @@
 
 
 
-public class whiles {
-     public static void main(String[] args) {
+// public class whiles {
+//      public static void main(String[] args) {
 
-        int count = 1;
-        while (count <= 5){
-             System.out.println("Hello");
-        count++;
-        }
+//         int count = 1;
+//         while (count <= 5){
+//              System.out.println("Hello");
+//         count++;
+//         }
        
-   }
+//    }
+// }
+
+
+
+
+public class whiles{
+    public static void main(String[] args){
+        int i = 6;
+
+        while (i <= 12){
+            System.out.println("Utshab");
+            i++;
+        }
+    }
 }
