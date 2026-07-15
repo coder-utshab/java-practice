@@ -15,3 +15,8 @@ public class continues{
     }
   }
 }
+
+
+
+
+//amon ar akta example  aca breaks.java ar moddo
