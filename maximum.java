@@ -19,3 +19,5 @@ public class maximum {
         System.out.println("Min:" + min);
     }
 }
+
+
