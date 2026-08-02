@@ -69,13 +69,47 @@
 
 
 
-static int mystery(int n){
-    if(n==0)
-        return 0;
+// static int mystery(int n){
+//     if(n==0)
+//         return 0;
 
-    return n + mystery(n - 2);
-}
+//     return n + mystery(n - 2);
+// }
 
-public static void main(String[] args){
-    System.out.println(mystery(6));
+// public static void main(String[] args){
+//     System.out.println(mystery(6));
+// }
+
+
+
+
+
+
+// public class recursion{
+//     static int fun(int n){
+//         if(n==0)
+//             return 0;
+
+//         return n + fun(n - 2);
+//     }
+//     public static void main(String[] args){
+//         System.out.println(fun(8));
+//     }
+// }
+
+
+
+
+public class recursion {
+
+    static int fun(int n){
+        if(n == 1)
+            return 1;
+
+        return n * fun(n - 1);
+    }
+
+    public static void main(String[] args){
+        System.out.println(fun(5));
+    }
 }
