@@ -117,8 +117,21 @@
 
 
 
+// public class recursion{
+//     static int fun(int a, int b){
+//         if(a == b)
+//             return b;
 
-public class recursion {
+//         return b + fun(a,b - 1);
+//     }
+//     public static void main(String[] args){
+//         System.out.println(fun(4,8));
+//     }
+// }
+
+
+
+public class recursi {
 
     static int fun(int a, int b){
         if(a == b)
