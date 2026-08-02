@@ -64,3 +64,18 @@
 //         System.out.println(print(4));
 //     }
 // }
+
+
+
+
+
+static int mystery(int n){
+    if(n==0)
+        return 0;
+
+    return n + mystery(n - 2);
+}
+
+public static void main(String[] args){
+    System.out.println(mystery(6));
+}
