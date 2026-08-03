@@ -28,13 +28,29 @@
 
 
 
-public class oop {
-  int x = 5;
+// public class oop {
+//   int x = 5;
 
-  public static void main (String[] args){
+//   public static void main (String[] args){
 
-    oop myObj = new oop();
-    myObj . x = 40;
-    System.out.println(myObj.x);
-  }
+//     oop myObj = new oop();
+//     myObj . x = 40;
+//     System.out.println(myObj.x);
+//   }
+// }
+
+
+
+
+
+public class oop{
+int x = 5;
+
+  public static void main(String[] args) {
+    oop myObj1 = new oop();  // Object 1
+    oop myObj2 = new oop();  // Object 2
+    myObj2.x = 25;
+    System.out.println(myObj1.x);  // Outputs 5
+    System.out.println(myObj2.x);  // Outputs 25
+   }
 }
