@@ -53,9 +53,9 @@ public class oop {
     public static void main(String[] args) {
 
         oop myObj = new oop();
-        System.out.println("Name: " + myObj.fname + " " + myObj.lname);
+        System.out.println("Name: " + myObj.fname + " "+ myObj.lname);
         System.out.println("Age:" + myObj.age);
 
-        
+
     }
 }
